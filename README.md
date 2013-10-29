@@ -6,4 +6,4 @@ Let's play with simple Android Views :)
 
 ![alt tag](http://img189.imageshack.us/img189/5666/w0v1.png)
 
-![alt tag](http://img189.imageshack.us/img189/5666/w0v1.png)
+![alt tag](http://img707.imageshack.us/img707/4963/n82d.png)
