@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MergeRootFrame">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show the result"
+        android:id="@+id/b1"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Name:"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="39dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/textName"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:hint="@string/textNameText" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mySeekBar"
+        android:progress="40"
+        android:indeterminate="false"
+        android:fadeScrollbars="false"
+        android:max="100"
+        android:minWidth="200dp"
+        android:rotation="270"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:layout_marginTop="94dp"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:layout_below="@+id/textName"
+        android:layout_alignLeft="@+id/b1"
+        android:layout_marginLeft="74dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textViewSeekBar"
+        android:layout_marginTop="78dp"
+        android:layout_below="@+id/mySeekBar"
+        android:layout_toRightOf="@+id/b1" />
+
+</RelativeLayout>
